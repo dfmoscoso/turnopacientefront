@@ -1,0 +1,87 @@
+
+.btn-space {
+    margin-left: 23px !important;
+}
+
+.color-nav {
+    background-color: #05193a;
+}
+
+.caja_p {
+    width: 333px !important;
+    margin-left: -8px;
+    transition: 300ms all;
+    height: 30px !important;
+    border: 1px solid #666666; 
+}
+
+.caja_p:hover {
+    background-color: #d0dae2;
+    border: 1px solid black; 
+    border-radius: 15px;
+    
+}
+
+.caja_p:focus{
+    background-color: #d0dae2;
+    border: 1px solid black; 
+    border-radius: 15px;
+    outline: 0px;
+}
+
+.caja_2 {
+    margin-left: -10px ;
+    transition: 300ms all;
+    height: 30px !important;
+    width: 150px;
+    border: 1px solid #666666; 
+}
+
+#caja_2 {
+    margin-left: 33px !important;
+}
+
+.caja_2:hover {
+    background-color: #d0dae2;
+    border: 1px solid black; 
+    border-radius: 15px;
+    
+}
+
+.caja_2:focus{
+    background-color: #d0dae2;
+    border: 1px solid black; 
+    border-radius: 15px;
+    outline: 0px;
+}
+
+.caja {
+    transition: 300ms all;
+    height: 30px !important;
+    border: 1px solid #666666; 
+}
+
+.caja:hover {
+    background-color: #d0dae2;
+    border: 1px solid black; 
+    border-radius: 15px;
+    
+}
+
+.caja:focus{
+    background-color: #d0dae2;
+    border: 1px solid black; 
+    border-radius: 15px;
+    outline: 0px;
+}
+
+.img_pequeña{
+    width: 350px; height: 100px;
+    margin-left: 45px;
+}
+
+.reserva {
+    height: 250px;
+}
+
+

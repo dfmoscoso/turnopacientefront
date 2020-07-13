@@ -1,0 +1,78 @@
+/*Ventana Facturacion*/
+
+#cuerpo_factura{
+    margin-top: 100px !important;
+}
+
+#cont_Tabla{
+    align-content: center !important;
+    margin-left: 225px !important;
+}
+
+
+#fecha{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+h1:hover {
+    cursor: default;
+}
+
+h3:hover {
+    cursor: default;
+}
+
+#datepicker:hover {
+    cursor: pointer !important;
+}
+
+h1{
+    /*Invocamos animacion*/
+    animation-name: entradaTitulo;
+    /*Tiempo de animacion*/
+    animation-duration: 1s;
+}
+
+h3{
+    /*Invocamos animacion*/
+    animation-name: entradasubTitulo;
+    /*Tiempo de animacion*/
+    animation-duration: 1s;
+}
+
+#datepicker {
+    /*Invocamos animacion*/
+    animation-name: entradasubTitulo;
+    /*Tiempo de animacion*/
+    animation-duration: 1s;
+}
+
+.input-group-append{
+    /*Invocamos animacion*/
+    animation-name: entradasubTitulo;
+    /*Tiempo de animacion*/
+    animation-duration: 1s;
+}
+
+@keyframes entradaTitulo{
+    from{
+        transform: translateY(-25px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes entradasubTitulo{
+    from{
+        transform: translateY(25px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
